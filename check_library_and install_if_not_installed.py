@@ -1,7 +1,6 @@
-import importlib
-import subprocess
-
 def install_required_libraries(required_libraries):
+    import importlib
+    import subprocess
     """
     Checks if the required libraries are installed and installs them if they are not already installed.
 
