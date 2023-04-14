@@ -14,3 +14,5 @@ def hash_password(password):
 # >>> hashed_password = hash_password(password)
 # >>> print(hashed_password)
 # $2b$12$uZqgDJzaKV3f8uTgW8KJkOw/gxGfxe4UrkrTkcLWkXHtoOZTMiNrS
+
+# This will output a string representing the hashed password. Note that the hashed password will be different each time you run the function, even with the same input, due to the random salt value used in the hashing process.
